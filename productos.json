@@ -1,0 +1,20 @@
+[
+	{
+		"title": "Lapicera",
+		"price": 25,
+        "thumbnail": "https://aldina.com.ar/wp-content/uploads/2020/08/bic-cristal-trazo-fino-azul-1.jpg",
+		"id": 1
+	},
+	{
+		"title": "Lapiz",
+		"price": 18,
+        "thumbnail": "https://st.depositphotos.com/1741875/1378/i/450/depositphotos_13784614-stock-photo-pencil-isolated-on-pure-white.jpg",
+		"id": 2
+	},
+	{
+		"title": "Regla",
+		"price": 20,
+        "thumbnail": "https://inkgenio.com.ar/6174-large_default/regla-x-20cm.jpg",
+		"id": 3
+	}
+]

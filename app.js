@@ -136,12 +136,12 @@ const server = app.listen( PORT, ()=>{
 
 app.get( '/productos',(req,res)=>{
     const products = container.getAll();
-    res.send( products );
+    res.send( {mensaje: products} );
 } )
 
 app.get( '/productoRandom',(req,res)=>{
     const randomProduct = container.getRandomProduct();
-    res.send( randomProduct );
+    res.send( {mensaje: randomProduct} );
 } )
 
 server.on('error', error => console.log( `Error en el servidor ${error}` ));
